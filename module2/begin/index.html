@@ -18,13 +18,21 @@
         <isolate-scope></isolate-scope>
     </div>
 </div>
-
+<div class="row">
+    <div class="small-12 columns">
+        <h2>Isolate Scope With String</h2>
+        <isolate-scope-with-string name="{{customer.name}}"></isolate-scope-with-string>
+        <br>
+        <isolate-scope-with-string name="{{customer}}"></isolate-scope-with-string>
+    </div>
+</div>
 
 
     <script src="../../scripts/angular.min.js"></script>
     <script src="../../scripts/directivesController.js"></script>
     <script src="sharedScopeDirective.js"></script>
     <script src="isolateScopeDirective.js"></script>
+    <script src="isolateScopeWithStringDirective.js"></script>
     <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 </body>
 </html>
