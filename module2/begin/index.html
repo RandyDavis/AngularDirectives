@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="directivesModule">
+<head>
+    <meta charset="UTF-8">
+    <title>Shared and Isolate Scope Demo</title>
+    <link rel="stylesheet" href="css/foundation.min.css">
+</head>
+<body ng-controller="CustomersController">
+<div class="row">
+    <div class="small-12 columns">
+        <h2>Shared Scope Directive</h2>
+        <shared-scope></shared-scope>
+    </div>
+</div>
+<div class="row">
+    <div class="small-12 columns">
+        <h2>Isolate Scope Directive</h2>
+        <isolate-scope></isolate-scope>
+    </div>
+</div>
+
+
+
+    <script src="../../scripts/angular.min.js"></script>
+    <script src="../../scripts/directivesController.js"></script>
+    <script src="sharedScopeDirective.js"></script>
+    <script src="isolateScopeDirective.js"></script>
+    <script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
