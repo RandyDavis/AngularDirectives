@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44bdfae0-57f2-47aa-858d-fcd1f9c2383a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/tableHelperWithParse.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/tableHelperWithParse.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularjs-custom-directives.iws" />
@@ -25,8 +25,8 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="tableHelperWithNgModel.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.html">
+      <file leaf-file-name="tableHelperWithParse.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithParse.html">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="-8.125">
               <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
@@ -35,21 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tableHelper.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module3/begin/tableHelper.html">
+      <file leaf-file-name="tableHelperWithParse.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithParse.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6666667">
-              <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tableHelperWithNgModel.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+            <state vertical-scroll-proportion="0.27972028">
+              <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -86,6 +76,8 @@
         <option value="$PROJECT_DIR$/module3/begin/tableHelper.html" />
         <option value="$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.js" />
         <option value="$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.html" />
+        <option value="$PROJECT_DIR$/module3/begin/tableHelperWithParse.html" />
+        <option value="$PROJECT_DIR$/module3/begin/tableHelperWithParse.js" />
       </list>
     </option>
   </component>
@@ -311,7 +303,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448085062464</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="finish requiring ngModel and how to watch for changes">
+      <created>1448171591340</created>
+      <option name="number" value="00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1448171591340</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -347,7 +345,8 @@
     <MESSAGE value="finish &amp; local scope property example" />
     <MESSAGE value="create basic function showing the link function" />
     <MESSAGE value="finish table helper directive that uses the link function example" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish table helper directive that uses the link function example" />
+    <MESSAGE value="finish requiring ngModel and how to watch for changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="finish requiring ngModel and how to watch for changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -466,14 +465,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.125">
@@ -492,8 +483,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/module3/begin/tableHelper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6666667">
+        <state vertical-scroll-proportion="-11.25">
           <caret line="20" column="30" selection-start-line="20" selection-start-column="30" selection-end-line="20" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithNgModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27972028">
+          <caret line="38" column="22" selection-start-line="38" selection-start-column="22" selection-end-line="38" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithParse.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-8.125">
+          <caret line="22" column="0" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3/begin/tableHelperWithParse.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.27972028">
+          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
           <folding />
         </state>
       </provider>
