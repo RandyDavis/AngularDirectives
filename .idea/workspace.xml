@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="44bdfae0-57f2-47aa-858d-fcd1f9c2383a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/delayBindWithCompile.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/delayBindWithCompile.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/useLinkOrNot.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/module3/begin/useLinkOrNot.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="angularjs-custom-directives.iws" />
@@ -25,21 +25,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="delayBindWithCompile.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/module3/begin/delayBindWithCompile.html">
+      <file leaf-file-name="useLinkOrNot.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/module3/begin/useLinkOrNot.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-16.25">
-              <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
+            <state vertical-scroll-proportion="-10.0">
+              <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="delayBindWithCompile.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/module3/begin/delayBindWithCompile.js">
+      <file leaf-file-name="useLinkOrNot.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/module3/begin/useLinkOrNot.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.66433567">
-              <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+            <state vertical-scroll-proportion="0.5244755">
+              <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="16" selection-end-column="52" />
               <folding />
             </state>
           </provider>
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/module3/begin/mapGeoLocation.html" />
         <option value="$PROJECT_DIR$/module3/begin/delayBindWithCompile.html" />
         <option value="$PROJECT_DIR$/module3/begin/delayBindWithCompile.js" />
+        <option value="$PROJECT_DIR$/module3/begin/useLinkOrNot.html" />
       </list>
     </option>
   </component>
@@ -317,7 +318,13 @@
       <option name="project" value="LOCAL" />
       <updated>1448256997928</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="complete compile() function and $interpolate service example">
+      <created>1448863949732</created>
+      <option name="number" value="00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1448863949732</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -363,7 +370,8 @@
     <MESSAGE value="finish table helper directive that uses the link function example" />
     <MESSAGE value="finish requiring ngModel and how to watch for changes" />
     <MESSAGE value="finish Building a Google Maps Directive" />
-    <option name="LAST_COMMIT_MESSAGE" value="finish Building a Google Maps Directive" />
+    <MESSAGE value="complete compile() function and $interpolate service example" />
+    <option name="LAST_COMMIT_MESSAGE" value="complete compile() function and $interpolate service example" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -554,18 +562,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/module3/begin/delayBindWithCompile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.66433567">
+          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/module3/begin/delayBindWithCompile.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.25">
+        <state vertical-scroll-proportion="0.962963">
           <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/module3/begin/delayBindWithCompile.js">
+    <entry file="file://$PROJECT_DIR$/module3/begin/useLinkOrNot.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.66433567">
-          <caret line="19" column="49" selection-start-line="19" selection-start-column="49" selection-end-line="19" selection-end-column="49" />
+        <state vertical-scroll-proportion="-10.0">
+          <caret line="16" column="47" selection-start-line="16" selection-start-column="47" selection-end-line="16" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/module3/begin/useLinkOrNot.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.5244755">
+          <caret line="15" column="34" selection-start-line="15" selection-start-column="34" selection-end-line="16" selection-end-column="52" />
           <folding />
         </state>
       </provider>
